@@ -119,7 +119,7 @@ class solution{
 
 
 ~~~sql
-SELECT MIN(H.X*H.X + H.Y*H.Y) AS CLOSE, MAX(H.X*H.X + H.Y*H.Y)
+SELECT MIN(H.X*H.X + H.Y*H.Y) AS CLOSE, MAX(H.X*H.X + H.Y*H.Y) AS FAR
 FROM HOUSE_LOCATIONS
 ~~~
 
